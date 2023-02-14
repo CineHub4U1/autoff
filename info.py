@@ -16,7 +16,7 @@ API_ID = int(environ.get('API_ID', '20288183'))
 API_HASH = environ.get('API_HASH', 'c552d415c8c88ac267891e1d01deaa57')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6162721677:AAHZVO6zV8u0OBdA7zijYfZ7OLEhmK_ybfk')
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 400))
+CACHE_TIME = int(environ.get('CACHE_TIME', 800))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/fb29296014484423be05a.jpg')).split()
 
