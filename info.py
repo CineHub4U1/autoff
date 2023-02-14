@@ -74,3 +74,7 @@ if AUTO_DELETE == "True":
 SHORTNER_SITE = "shorturllink.in"
 SHORTNER_API = "79a4947e494e31ff02817a5af3fc3527dcd579bc"
 
+    # Download Tutorial Button #
+DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
+DOWNLOAD_TEXT_URL = "t.me/CineHub4U"
+
