@@ -79,5 +79,5 @@ DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
 DOWNLOAD_TEXT_URL = "t.me/CineHub4U"
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "Subscribe"
-CAPTION_BUTTON_URL = "https://youtube.com/@GreyMattersYT"
+CAPTION_BUTTON = "JOIN MOW"
+CAPTION_BUTTON_URL = "t.me/Cinehun4U"
