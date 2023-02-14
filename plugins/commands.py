@@ -45,12 +45,9 @@ async def start(client, message):
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             ],[
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='t.me/cinehub4u'),
-            InlineKeyboardButton('💥 ᴍᴏᴠɪᴇs ♥️', url='t.me'),
+            InlineKeyboardButton('💥 ᴍᴏᴠɪᴇs ♥️', url='t.me/CineHub4u'),
             ],[
             InlineKeyboardButton('💞 sᴜᴘᴘᴏʀᴛ 💞', url='https://t.me/cinehub4u_group'),
-            InlineKeyboardButton('👩‍💻 ʀᴇᴘᴏ ✨', url='https://GitHub.Com/'),
-            ],[
-            InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
             ],[
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ 🔐', callback_data='close_data')
         ]]
