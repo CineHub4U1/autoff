@@ -773,7 +773,7 @@ async def auto_filter(client, msg, spoll=False):
 
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
-            poster = pic.replace('.jpg', "._V1_UX360.jpg")
+            poster = pic.replace('.jpg', "https://te.legra.ph/file/fb29296014484423be05a.jpg")
             hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
             if AUTO_DELETE:
                 await asyncio.sleep(AUTO_DELETE_SECONDS)
@@ -828,7 +828,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("I couldn't find anything related to that. Check your spelling")
+        k = await msg.reply("I couldn't find anything related to that. Check your spelling or use google")
         await asyncio.sleep(8)
         await k.delete()
         return
