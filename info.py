@@ -71,13 +71,13 @@ if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
 #Sample
-SHORTNER_SITE = "shorturllink.in"
-SHORTNER_API = "79a4947e494e31ff02817a5af3fc3527dcd579bc"
+SHORTNER_SITE = ""
+SHORTNER_API = ""
 
     # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "t.me/CineHub4U"
+DOWNLOAD_TEXT_NAME = ""
+DOWNLOAD_TEXT_URL = ""
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "JOIN MOW"
-CAPTION_BUTTON_URL = "t.me/Cinehun4U"
+CAPTION_BUTTON = ""
+CAPTION_BUTTON_URL = ""
