@@ -40,7 +40,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001674779634'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CineHub4U_Group')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
@@ -71,13 +71,6 @@ if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
 #Sample
-SHORTNER_SITE = ""
-SHORTNER_API = ""
+SHORTNER_SITE = "https://omegalinks.in"
+SHORTNER_API = "a58d800bfd18bccf43a2e462a246d21d016142f4"
 
-    # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = ""
-DOWNLOAD_TEXT_URL = ""
-
-   # Custom Caption Under Button #
-CAPTION_BUTTON = ""
-CAPTION_BUTTON_URL = ""
